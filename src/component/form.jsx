@@ -99,8 +99,3 @@ class EmployeeForm extends React.Component{
 }
 
 export default EmployeeForm;
-// Profile Image
-// Age
-// Address
-// POST 
-// Experience in year
