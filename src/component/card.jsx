@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 // import axios from 'axios';
 import Header from "./header.jsx";
 import "./style.css"
-import Category from './category.jsx';
+import CategorySlider from "./category.jsx"
 
 class SingleCard extends React.Component {
 
@@ -125,7 +125,7 @@ class SingleCard extends React.Component {
 
 class WebCard extends React.Component {
     render() {
-        return[<Header/>,<Category/>,<Container className="spacecard">
+        return[<Header/>,<CategorySlider/>,<Container className="spacecard">
             <Row>
                 <SingleCard />
             </Row>
