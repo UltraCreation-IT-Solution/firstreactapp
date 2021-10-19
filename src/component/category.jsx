@@ -5,6 +5,7 @@ import 'react-multi-carousel/lib/styles.css';
 import "./style.css"
 
 
+
 class CategorySlider extends React.Component {
 
     state = {
@@ -104,6 +105,7 @@ class CategorySlider extends React.Component {
     }
     render() {
         return<>
+        
         </>
 
     }

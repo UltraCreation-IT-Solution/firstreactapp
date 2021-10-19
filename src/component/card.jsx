@@ -4,10 +4,11 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+
 // import axios from 'axios';
 import Header from "./header.jsx";
 import "./style.css"
-import CategorySlider from "./category.jsx"
+import MultipleItems  from './slider.jsx'
 
 class SingleCard extends React.Component {
 
@@ -121,17 +122,5 @@ class SingleCard extends React.Component {
         </Card></Col>))}</>)
     }
 }
-
-
-class WebCard extends React.Component {
-    render() {
-        return[<Header/>,<CategorySlider/>,<Container className="spacecard">
-            <Row>
-                <SingleCard />
-            </Row>
-        </Container>]
-    }
-}
-export default WebCard;
-
+export default SingleCard;
 
