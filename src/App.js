@@ -7,13 +7,14 @@ import Row from 'react-bootstrap/Row';
 import Header from './component/header';
 import "./component/style.css"
 import SingleCard from './component/card.jsx';
+import MultipleItems from './component/slider.jsx';
 
 
 
 
 class App extends React.Component {
     render() {
-        return[<Header/>,<Container className="spacecard">
+        return[<Header/>,<Container className="spacecard"><Row><MultipleItems/></Row>
             <Row>
                 <SingleCard />
             </Row>

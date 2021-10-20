@@ -1,14 +1,10 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 
-// import axios from 'axios';
-import Header from "./header.jsx";
+import Col from 'react-bootstrap/Col';
 import "./style.css"
-import MultipleItems  from './slider.jsx'
+
 
 class SingleCard extends React.Component {
 
